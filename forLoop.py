@@ -10,3 +10,11 @@ for index in range(0,11,1):
 nums = [10,20,30,40,50,60,70,80]
 for index  in nums:
     print("hello for loop", index)
+    
+# table using for loop
+
+num = int(input("Enter Table Number"))
+for i in range(1,11):
+    print(num,"*", i, "=", num*i)
+
+# table from user input
