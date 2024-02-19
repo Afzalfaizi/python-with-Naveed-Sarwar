@@ -1,15 +1,16 @@
 # Tuple in python.
 # how to use tuple in python
 #  tuple is a collection of objects which are ordered and unchangeable. 
+names = ("ali", "rehan", "sara", "zain", "moin", "umar")
+print(names[2])
+for item in names:
+    print(f" hello {item} welcome to the world of coding")
 
-def print_tuple(t):
-    """print elements of the given tuple"""
-    for i in t:
-        print(i)
-        
-my_tuple = (1, 'a', True, 3.4)   # creating a tuple with different data types
+# write a programme that checks duplicate  element in list
+nums = [10,20,30,40,50,20,10]
 
-print("Elements of my_tuple : ")
-print_tuple(my_tuple)               # calling function to print all elements of the tuple
-
-print("\nType of my_tuple : ", type(my_tuple))     # checking the datatype of the tuple
+for num in nums:
+    if nums.count(num) > 1:
+        print(f"{num} is repeated")
+    else:
+        print(f"{num} is unique")
