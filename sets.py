@@ -8,5 +8,3 @@ studentsEmailSet.add("test4@gmail.com") # adding element in set
 print(studentsEmailSet)
 # studentsEmailSet.update("test1@gmail.com", "test5@gmail.com")  # updating the existing element with new one
 # print(studentsEmailSet)
-studentsEmailSet.remove("test2@gmail.com")    # removing an element from a set
-print(studentsEmailSet)
